@@ -1,15 +1,14 @@
 import { useState } from 'react'
 
-export default function Counter() {
+export default function BasicState() {
     const [count, setCount] = useState(0)
 
     const inc = () => {
-        setCount(count + 1)
+        setCount(c => c + 1)
     }
 
-
     const dec = () => {
-        setCount(count - 1)
+        setCount(c => c - 1)
     }
 
     const reset = () => {

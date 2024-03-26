@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Change() {
+export default function OnChange() {
     const [name, setName] = useState("Guest")
     const [quantity, setQuanrtity] = useState(0)
     const [payment, setPayment] = useState("Visa")

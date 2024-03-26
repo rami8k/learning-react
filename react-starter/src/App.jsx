@@ -1,4 +1,4 @@
-import ChangeComponent from "./ChangeComponent"
+import EffectCleanup from "./EffectCleanup"
 
 function App() {
   // const fruites = [
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <ChangeComponent/>
+      <EffectCleanup/>
     </>
   )
 }
