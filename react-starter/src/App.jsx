@@ -1,4 +1,4 @@
-import EffectCleanup from "./EffectCleanup"
+import StopWatch from "./StopWatch"
 
 function App() {
   // const fruites = [
@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <EffectCleanup/>
+      <StopWatch/>
     </>
   )
 }
